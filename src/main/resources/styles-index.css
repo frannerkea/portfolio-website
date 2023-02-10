@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#welcome-div
+{
+    width: 100%;
+    min-heightheight: 50px;
+    background-color: lightgrey;
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#navigation-div
+{
+    width: 100%;
+    min-height: 30px;
+    background-color: lightgrey;
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin-right: 30px;
+    text-align: center;
+}
+
+
+#pic-n-name-div
+{
+    padding-bottom: 0;
+}
+
+#name-div
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgrey;
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+
+#about-div
+{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+#about-title-div
+{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#about-paragraph
+{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#main-div
+ {
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+.clearfix::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#education-div
+{
+    width: 48%;
+    min-height: 300px;
+    background-color: lightgrey;
+    float: left;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+
+}
+
+#edu-points-div
+{
+    padding-top: 1%;
+    padding-left: 8%;
+}
+
+#job-points-div
+{
+    padding-top: 1%;
+    padding-left: 8%;
+}
+
+#jobs-div
+{
+    width: 48%;
+    min-height: 300px;
+    background-color: lightgrey;
+    float: right;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#footer-div
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgrey;
+}
+
+#contact-div
+{
+    float: left;
+}
+
+#email-div
+{
+    float: inside;
+}
+
+#github-div
+{
+    float: right;
+}
