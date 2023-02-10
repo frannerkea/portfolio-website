@@ -66,17 +66,50 @@ nav li {
     background-color: grey;
 }
 
+dl dt
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+dl dd
+{
+margin-bottom: 15px;
+}
+
 #about-title-div
 {
     padding-top: 1%;
     padding-left: 1%;
+    padding-bottom: 1%;
 }
 
-#about-paragraph
+#about-paragraph-div
 {
     padding-top: 1%;
     padding-left: 1%;
     padding-bottom: 1%;
+    float: left;
+    background-color: lightgrey;
+    width: 48%;
+    min-height: 200px;
+}
+
+#about-interests-div
+{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    background-color: lightgrey;
+    float: right;
+    width: 48%;
+    min-height: 200px;
+}
+
+#about-interests-points-div
+{
+    padding-top: 2%;
+    padding-left: 8%;
 }
 
 #main-div
@@ -106,13 +139,13 @@ nav li {
 
 #edu-points-div
 {
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 8%;
 }
 
 #job-points-div
 {
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 8%;
 }
 
@@ -147,4 +180,11 @@ nav li {
 #github-div
 {
     float: right;
+}
+
+#wrapper-div
+{
+    width: 80%;
+    margin: auto;
+
 }
